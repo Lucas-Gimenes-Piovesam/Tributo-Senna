@@ -1,0 +1,131 @@
+*{
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    height: 100%; 
+    margin: 0; 
+    background: repeating-linear-gradient(
+        to bottom,
+        yellow 0px,    
+        yellow 20px,   
+        green 20px,   
+        green 40px,   
+        yellow 40px,   
+        yellow 60px,   
+        blue 60px,     
+        blue 80px      
+    );
+}
+
+.container {
+    display: flex;       
+    justify-content: center; 
+    align-items: center;   
+    height: 100%;        
+}
+.senna_name{
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-size: 28px;
+    font-weight: bold ;
+    background-color: rgb(34, 31, 31) ;
+    color: white;
+    display: flex;
+    padding: 5px;
+    border-radius: 70px;
+
+    justify-content: center;
+}
+.senna_desc{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 70px;
+    background-color: rgb(34, 31, 31) ;
+    margin-top: 10px;
+}
+
+.imagem-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center; 
+    height: 300px;          
+    
+}
+.imagem-container img {
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    border: 5px solid #ccc; 
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.5); 
+    max-width: 100%; 
+    height: auto; 
+}
+.f1_conquistas{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+    border-radius: 70px;
+    background-color: rgb(34, 31, 31) ;
+    
+}
+.titulos{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+    border-end-end-radius: 10px ;
+    border-end-start-radius: 10px ;
+    background-color: rgb(34, 31, 31) ;
+    margin-bottom: 3px;
+}
+.demais{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+  
+    background-color: rgb(34, 31, 31) ;
+    
+    
+}
+.exp{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    
+    padding: 7px;
+    border-radius: 70px;
+    border-end-end-radius: 0px ;
+    border-end-start-radius: 0px ;
+    background-color: rgb(34, 31, 31) ;
+    
+}
+.saiba_mais{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+    border-radius: 70px;
+    background-color: rgb(34, 31, 31) ;
+    
+}
